@@ -1,0 +1,46 @@
+/* Estiliza o body */
+body {
+    background-color: #000000; /* Cor de fundo preta */
+    color: rgb(255, 255, 255); /* Cor do texto branca */
+    font-family: "Pixelify Sans", sans-serif; /* Fonte personalizada */
+    display: flex; /* Usa Flexbox para o layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Usa 100% da altura da viewport */
+    margin: 0; /* Remove a margem padrão */
+}
+
+/* Estiliza todos os botões */
+button {
+    background-color: #fff200; /* Cor de fundo amarela */
+    color: rgb(0, 0, 0); /* Cor do texto preta */
+    font-family: "Pixelify Sans", sans-serif; /* Fonte personalizada */
+    border: none; /* Remove a borda padrão dos botões */
+    padding: 10px 20px; /* Adiciona espaçamento interno */
+    cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    transition: background-color 0.3s; /* Adiciona uma transição suave na cor de fundo */
+}
+
+button:hover {
+    background-color: #e5e500; /* Altera a cor de fundo ao passar o mouse */
+}
+
+/* Estiliza os elementos com a classe 'passo' */
+.passo {
+    display: none; /* Oculta todos os elementos com a classe 'passo' por padrão */
+}
+
+/* Estiliza o elemento com a classe 'ativo' */
+.passo.ativo {
+    display: block; /* Exibe apenas o elemento com a classe 'ativo' */
+}
+
+main {
+    max-width: 90%;
+    text-align: center;
+}
+
+img {
+    max-width: 90%;
+}
